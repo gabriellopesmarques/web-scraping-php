@@ -4,7 +4,7 @@ namespace Core;
 
 class Request
 {
-    public static function get($url, $ua = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36')
+    public static function get($url, $ua = 'crawler')
     {
         $options = [
             CURLOPT_RETURNTRANSFER => true,     // return web page
@@ -38,7 +38,7 @@ class Request
         ];
     }
 
-    public static function post($url, $data, $ua = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36')
+    public static function post($url, $data, $ua = 'crawler')
     {
         $options = [
             CURLOPT_POST           => true,
