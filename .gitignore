@@ -1,0 +1,17 @@
+.DS_Store
+composer.lock
+/vendor/*
+.tmp
+*~
+*#
+.netbeans
+nbproject
+.idea
+.node_history
+dump.rdb
+npm-debug.log
+lib-cov
+*.seed
+*.log
+*.out
+*.pid

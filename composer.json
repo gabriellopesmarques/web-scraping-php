@@ -1,0 +1,16 @@
+{
+    "name": "gabriel.lopes/web-scraping-php",
+    "description": "structure to web scraping with php",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/css-selector": "^4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "./core",
+            "App\\": "./app"
+        }
+    }
+}

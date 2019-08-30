@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  webserver:
+    build: ./docker/webserver
+    container_name: 'web_scraping_php_webserver'
+    restart: 'always'
+    ports:
+      - "80:80"
+    volumes: 
+      - .:/var/www/html
