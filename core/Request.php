@@ -34,6 +34,7 @@ class Request
             'http_code' => $http_code,
             'errno' => $err,
             'errmsg' => $errmsg,
+            'header' => $header,
             'response' => $response,
         ];
     }
@@ -70,6 +71,7 @@ class Request
             'http_code' => $http_code,
             'errno' => $err,
             'errmsg' => $errmsg,
+            'header' => $header,
             'response' => $response,
         ];
     }
